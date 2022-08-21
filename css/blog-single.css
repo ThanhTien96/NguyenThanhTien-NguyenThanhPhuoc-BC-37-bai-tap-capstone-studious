@@ -1,0 +1,240 @@
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a,
+a:hover,
+button,
+button:hover {
+    text-decoration: none;
+    transition: .5s all;
+    -moz-transition: .5s all;
+}
+
+a {
+    color: #707070;
+}
+
+
+.text-right {
+    text-align: right !important;
+}
+
+
+.pull-left {
+    float: left;
+}
+
+
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+}
+.headerTop__info a{
+    color: #fff;
+}
+
+@media all and (max-width: 900px) {
+    .mfp-arrow {
+        transform: scale(0.75);
+    }
+
+    .mfp-arrow-left {
+        transform-origin: 0;
+    }
+
+    .mfp-arrow-right {
+        transform-origin: 100%;
+    }
+
+    .mfp-container {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+
+span{
+    color: #707070;
+}
+
+/* button style */
+.btn-style {
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #060606;
+    border-radius: 4px;
+    background: #fff;
+    border: none;
+    transition: all .25s ease-in-out;
+}
+
+.btn-style:hover,
+.btn-style-secondary {
+    background: var(--secondary-color);
+    color: #fff;
+    transition: 0.3s ease-out;
+}
+
+.btn-style-secondary:hover {
+    background: var(--primary-color);
+    color: #fff;
+    transition: 0.3s ease-out;
+}
+
+.btn-style-primary {
+    color: var(--secondary-color);
+    padding: 0;
+    background: transparent;
+    font-size: 14px;
+}
+
+.btn-style-primary:hover {
+    color: var(--primary-color);
+    background: transparent;
+}
+
+
+.list-about-2 i {
+    color: var(--secondary-color);
+}
+
+.about-2-secs-right img {
+    border-radius: 8px;
+}
+
+/* blog single page */
+.single-bottom-blog .bottom-grid h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.single-bottom-blog p {
+    margin: 15px 0 30px;
+}
+
+.single-bottom-blog p.some-para a {
+    font-size: 16px;
+    color: var(--secondary-color);
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.single-bottom-blog p.some-para a:hover {
+    color: var(--primary-color);
+}
+
+.single-bottom-blog .buttons-singles a {
+    font-size: 16px;
+    margin: 0 5px;
+    color: var(--heading-color);
+}
+
+.single-bottom-blog .buttons-singles a:hover {
+    color: var(--primary-color);
+}
+
+.d-grid.grid-columns {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.single-bottom-blog .bod-2 {
+    border: none;
+    border-top: 1px solid var(--border-color-light);
+    padding-top: 1.5rem;
+}
+
+.single-bottom-blog .medi-top {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr auto;
+}
+
+.single-bottom-blog a.name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.single-bottom-blog .medi-top span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.single-bottom-blog a.rep {
+    font-size: 16px;
+    color: var(--primary-color);
+    border-radius: 4px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.single-bottom-blog h3.post-title {
+    font-size: 25px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.single-bottom-blog .reply input.form-control,
+.single-bottom-blog .reply textarea {
+    margin-bottom: 20px;
+    outline: none;
+    color: var(--heading-color);
+    font-size: 15px;
+    border: none;
+    padding: 14px;
+    border: 1px solid var(--border-color-light);
+    width: 100%;
+    background: var(--bg-color);
+    height: auto;
+    border-radius: 8px;
+}
+
+/* single blog pagination */
+.single-pagination {
+    border-top: 1px solid var(--border-color-light);
+    border-bottom: 1px solid var(--border-color-light);
+    margin-top: 40px;
+}
+
+.single-pagination a {
+    display: grid;
+    margin: 20px 0;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    color: var(--heading-color);
+    font-weight: 600;
+    align-items: center;
+}
+
+.single-pagination a:hover {
+    color: var(--secondary-color);
+}
+
+.single-pagination a span.fa {
+    font-size: 13px;
+}

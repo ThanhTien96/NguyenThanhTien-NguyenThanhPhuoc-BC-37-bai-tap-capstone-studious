@@ -1,0 +1,41 @@
+
+/* LANDING PAGE */
+
+.detail__item i{
+    color: #ff6e65;
+}
+.detail__item .address__text a{
+    color: #707070;
+    transition: all .4s ease-out;
+}
+.address__text p a:hover{
+    color: #ff6e65;
+}
+
+.address .address__map iframe{
+    border: 10px solid #fff!important;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 6%);
+}
+
+.form__left img{
+    border-radius: 8px;
+}
+.form__detail input, .form__detail textarea{
+    display: block;
+    width: 100%;
+    padding: 14px;  
+    font-size: 15px;
+    color: #060606;
+    background: #f9f9f9;
+    outline: none;
+    border: 1px solid #eee;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+.form__detail textarea{
+    height: 120px;
+    margin-bottom: 20px;
+}
+.form__detail input:focus, .form__detail textarea:focus{
+    border: 1px solid #ff6e65;
+}
