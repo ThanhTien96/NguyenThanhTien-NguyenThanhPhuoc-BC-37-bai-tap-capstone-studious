@@ -54,6 +54,10 @@ p {
 .headerTop__info a{
     color: #fff;
 }
+.blog-search button span {
+    color: #fff;
+}
+
 
 @media all and (max-width: 900px) {
     .mfp-arrow {
